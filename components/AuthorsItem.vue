@@ -4,7 +4,9 @@
             <NuxtImg class="rounded-full w-full" src="/author-avatar-example.png" />
         </div>
         <div class="flex flex-col gap-4">
-            <div class="font-bold text-2xl">Jakob Gronberg</div>
+            <NuxtLink to="/authors/test">
+                <div class="font-bold text-2xl hover:underline">Jakob Gronberg</div>
+            </NuxtLink>
             <div class="flex gap-4 items-center text-sm">
                 <div class="flex gap-2">
                     <b>Job</b>

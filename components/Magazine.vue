@@ -1,9 +1,9 @@
 <template>
     <div class="relative w-full">
-        <NuxtImg class="w-full" src="/magazine-example.png" />
+        <NuxtImg class="w-full object-contain" src="/magazine-example.png" />
         <div class="absolute top-0 left-0 h-full p-8 flex flex-col justify-between text-white">
             <div class="flex flex-col">
-                <div class="font-bold text-8xl">FYRRE</div>
+                <div class="font-bold text-6xl">FYRRE</div>
                 <div class="font-semibold text-xl">MAGAZIN</div>
             </div>
             <div class="flex gap-4 justify-between items-end">

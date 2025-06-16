@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink to="/" class="block hover:scale-110 transform duration-300 transition relative w-full">
+    <NuxtLink to="/podcast/test" class="block hover:scale-110 transform duration-300 transition relative w-full">
         <NuxtImg class="w-full" src="/podcast-example.png" />
         <div class="w-full absolute top-0 left-0 h-full p-8 flex flex-col justify-between text-white">
             <div class="flex flex-col">

@@ -10,7 +10,9 @@
             <NuxtImg class="w-full" src="/article-example.png" />
         </div>
         <div class="flex flex-col gap-4">
-            <h1 class="font-bold text-3xl">Hope dies last</h1>
+            <NuxtLink to="/magazine/test">
+                <h1 class="font-bold text-3xl hover:underline">Hope dies last</h1>
+            </NuxtLink>
             <div class="font-light text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis

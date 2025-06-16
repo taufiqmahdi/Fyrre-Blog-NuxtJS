@@ -47,7 +47,7 @@
                 <ArticleFeed />
                 <hr>
                 <ArticleFeed />
-                <ButtonText to="/articles" labelPosition="end">All Articles</ButtonText>
+                <ButtonText to="/authors" labelPosition="end">All Articles</ButtonText>
             </div>
             <div class="w-1/4 flex flex-col gap-8">
                 <div class="flex flex-col gap-4">
@@ -96,7 +96,7 @@
         <div class="flex flex-col gap-8">
             <div class="flex gap-4 justify-between">
                 <div class="text-8xl font-bold flex-1">AUTHORS</div>
-                <ButtonText to="/episodes" labelPosition="end">All Authors</ButtonText>
+                <ButtonText to="/authors" labelPosition="end">All Authors</ButtonText>
             </div>
             <div class="grid grid-cols-2">
                 <AuthorsItem />

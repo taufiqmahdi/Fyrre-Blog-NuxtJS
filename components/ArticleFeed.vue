@@ -5,7 +5,9 @@
         </div>
         <div class="w-4/5 flex flex-col gap-4 justify-between">
             <div class="flex flex-col gap-4">
-                <h1 class="font-bold text-3xl">Hope dies last</h1>
+                <NuxtLink to="/authors/test">
+                    <h1 class="font-bold text-3xl hover:underline">Hope dies last</h1>
+                </NuxtLink>
                 <div class="font-light">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.
                 </div>
